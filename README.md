@@ -20,10 +20,12 @@ Then install dependencies:
 
 pip install -r requirements.txt
 
-
 Now you’re ready to run the scanner 🚀
+
 Port Scan
+
 python vuln_scanner.py 127.0.0.1
 
 🌐 Web Scan (SQLi & XSS)
+
 python vuln_scanner.py "http://testphp.vulnweb.com/artists.php"
